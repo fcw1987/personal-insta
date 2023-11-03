@@ -18,12 +18,9 @@
   }
   
   .image-card:hover {
-    border-color: var(--tertiary-color-lilac); /* Optional: change border color on hover */
+    border-color: var(--tertiary-color-lilac); 
   }
   
-  .image-card {
-    /* ... existing styles ... */
-    /* No need to set width here; it's controlled by the grid */
-  }
+ 
   
   

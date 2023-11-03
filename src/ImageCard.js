@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
-import './ImageCard.css'; // Ensure you have this CSS file with styles defined
+import './ImageCard.css'; 
 
 const ImageCard = ({ imageSrc, onImageClick }) => {
-  // State to manage the count of likes
   const [likesCount, setLikesCount] = useState(0);
 
-  // Function to increment the likes count
   const incrementLike = (e) => {
     e.stopPropagation(); // Prevent the click from also triggering the image click
     setLikesCount(likesCount + 1);

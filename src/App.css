@@ -1,5 +1,3 @@
-/* App.css */
-
 @import './colors.css';
 
 body {
@@ -13,8 +11,6 @@ body {
   color: var(--text-color-dark);
 }
 
-/* App.css or components specific CSS */
-
 .button {
   background-color: var(--accent-color);
   color: var(--text-color-light);
@@ -25,7 +21,7 @@ body {
 }
 
 .button:hover {
-  background-color: var(--tertiary-color-green); /* A different color on hover */
+  background-color: var(--tertiary-color-green);
 }
 
 a {

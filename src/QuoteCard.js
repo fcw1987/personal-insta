@@ -1,5 +1,5 @@
 import React from 'react';
-import './QuoteCard.css'; // Make sure to create a corresponding CSS file
+import './QuoteCard.css';
 
 const QuoteCard = ({ quote, attribution }) => {
   return (
