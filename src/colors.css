@@ -1,0 +1,12 @@
+/* colors.css */
+
+:root {
+    --primary-color: #A2C4C9; /* Soft Blue */
+    --secondary-color: #DAD2C3; /* Warm Grey */
+    --accent-color: #E8A798; /* Pastel Coral */
+    --tertiary-color-green: #A8BDA4; /* Soft Green */
+    --tertiary-color-lilac: #E3D6F3; /* Pale Lilac */
+    --text-color-dark: #333; /* Dark color for text for contrast */
+    --text-color-light: #fff; /* Light color for text for contrast */
+  }
+  

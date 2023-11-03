@@ -1,0 +1,29 @@
+
+  /* ImageCard.css */
+
+.image-card {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px; /* or your preferred width */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .image-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .image-card:hover {
+    border-color: var(--tertiary-color-lilac); /* Optional: change border color on hover */
+  }
+  
+  .image-card {
+    /* ... existing styles ... */
+    /* No need to set width here; it's controlled by the grid */
+  }
+  
+  
