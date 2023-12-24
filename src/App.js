@@ -20,8 +20,8 @@ const App = () => {
   return (
     <div className="App">
       <QuoteCard
-        quote="Life is what happens when you're busy making other plans."
-        attribution="— John Lennon"
+        quote="The best way to not feel hopeless is to get up and do something. Don’t wait for good things to happen to you. If you go out and make some good things happen, you will fill the world with Hope, you will fill yourself with Hope."
+        attribution="— Barack Obama"
       />
       <div className="grid-container">
         {imageNames.map((imageName, index) => (
